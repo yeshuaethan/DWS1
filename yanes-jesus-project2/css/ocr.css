@@ -1,0 +1,145 @@
+	/******************** Main Font Family ********************/
+	
+	*	{
+		font-family: Helvetica, Arial;
+		font-weight: 300;
+		line-height: normal;
+	}
+	@font-face {
+		font-family: harabara-bold;
+		src: url(http://www.fonts2u.com/harabara-bold.eot);
+		font-weight:400;
+	}
+	
+	/******************** Paragraph Layout/Style ********************/
+	
+	p	{
+		color: white;
+		background-color: #b08138;
+		text-align: justify;
+		opacity: .5;
+		text-shadow: #000000 1px 1px 2px;
+		text-indent: 30px;
+		border-radius: 10px;
+  		border: 3px solid #eddec7;
+  		box-shadow: inset 0 0 10px #000000;
+		padding: 10px 10px 10px 10px;
+	}
+	
+	/******************** Main Page Layout/Style (Background) ********************/
+	
+	body	{
+		background-color: #000000;
+	}
+	
+	/******************** Main Header Layout/Style ********************/
+	
+	h1	{
+		color: #b08138;
+		font-size: 36px;
+		text-decoration: underline;
+		font-variant: small-caps;
+		font-style: oblique;
+		text-transform: uppercase;
+	}
+	h2	{
+		color: #325c9d;
+		font-size: 20px;
+		font-variant: small-caps;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		text-transform: uppercase;
+		Margin-top: 40px;
+	}
+	h2 a	{
+		color: #325c9d;
+		font-size: 20px;
+		font-variant: small-caps;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		text-transform: uppercase;
+	}
+	h3 		{
+		color: #c89a53;
+	}
+	
+	/******************** Layout/Style for List ********************/
+	
+	.header	{
+		background-color: #b08138;
+		opacity: .5;
+		text-indent: 30px;
+		border-radius: 10px;
+		border: 3px solid #eddec7;
+		/*box-shadow: inset 0 0 10px #000000;*/
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	.header li {
+		display: inline;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	li	{
+		color: #c89a53;
+		list-style-type: circle;
+		font-family: harabara-bold;
+	}
+	li a	{
+		font-family: harabara-bold;
+	}
+	ol {
+		margin: 0;
+		padding: 22px;
+		border: 5px solid #fff;
+		width: 200px;
+		height: 100px;
+	}
+	
+	/******************** Anchor Layout/Style ********************/
+	
+	a	{
+		color: rgb(59, 130, 179);
+	}
+	
+	/******************** Pseudo-Class Hyperlink Layout/Style ********************/
+	
+	a:link {
+		color: #0000ff;
+	
+	}
+	a:visited {
+		color: #9900ff;
+	}
+	a:hover {
+		color: #ff0000;
+	}
+	a:active {
+		color: #ffff00;
+	}
+	
+	/******************** Images Layout/Style ********************/
+	
+	img	{
+		vertical-align: super;
+		border-radius: 10px;
+  		border: 3px solid #eddec7;
+	}
+	figcaption {
+		color: #c89a53;
+	}
+
+	/******************** Wrapper encloses elements in the HTML ********************/
+	
+	#wrap { 
+		width: 900px; 
+		margin: 0 auto; 
+	}
+	
+	/******************** Footer Layout/Style ********************/
+	
+		#footer	{
+		color: #b08138;
+		background-color: #000000;
+	}
+	/******************** End ********************/
